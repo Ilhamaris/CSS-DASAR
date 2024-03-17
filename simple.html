@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Simple Selektor</title>
+        <style>
+            
+            p { /* selektor elemen <p> */
+                text-align: center;
+                color: aqua;
+            }
+
+            #kalimat { /* selektor elemen atribut id=kalimat */
+                text-align: left;
+                color: red;
+            }
+
+            .center { /* selektor elemen atribut class=tengah */
+                text-align: center;
+                color: chocolate;
+            }
+
+            p.tengah {
+                text-align: center;
+                color: darkmagenta;
+                display: block;
+                background-color: #777777;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>Liga Champions musim 2023-2024 kembali melahirkan takdir pertemuan Real Madrid dan Manchester City.</p>
+        <p id="kalimat">Para peserta perempat final baru saja mengetahui lawan masing-masing setelah pengundian.</p>
+        <p class="center">Manchester City harus menerima nasib untuk bertemu dengan Real Madrid.</p>
+        <p class="tengah">Keduanya tergolong sering bertemu di fase gugur Liga Champions dalam lima tahun terakhir.</p>
+    </body>
+</html>
